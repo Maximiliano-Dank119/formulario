@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo fondo">
+            <div class="logo__odin"><img src="img/odin-lined.png" class="logo__img-odin">ODIN</div>
+        </div>
+        <div class="logo">
+            <div class="logo__odin"><img src="img/odin-lined.png" class="logo__img-odin">ODIN</div>
+        </div>
+        <img src="img/halie-west-25xggax4bSA-unsplash.jpg" alt="planta" class="planta">
+        <div class="container__formulario">
+            <div class="container__formulario-header">
+                <h1>!ADVERTENCIA¡</h1>
+                <h2>Este no es un servicio en lina real, por ende no coloque datos reales.</h2>
+                <h2>Gracias por su tiempo¡</h2>
+            </div>
+            <form action="#" method="post" class="container__formulario-cuerpo">
+                <h3>!Bien¡. Comencemos¡</h3>
+                <div class="entradas-info">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" minlength="4" required>
+                    </div>
+                    <div>
+                        <label for="apelldio">Apellido</label>
+                        <input type="text" name="apelldio" id="apelldio" minlength="4" required>
+                    </div>
+                    <div>
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo" required>
+                    </div>
+                    <div>
+                        <label for="telefono">Numero de telefono</label>
+                        <input type="tel" name="telefono" id="telefono" minlength="10" maxlength="10"  required>
+                    </div>
+                    <div>
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" name="contraseña" id="contraseña" minlength="8" maxlength="16" required>
+                    </div>
+                    <div>
+                        <label for="confirmar-contrseña">Confirmar contraseña</label>
+                        <input type="password" name="confirmar-contrseña" id="confirmar-contrseña" minlength="8" maxlength="16" required>
+                    </div>
+                </div>
+                <div class="container__formulario-footer">
+                    <button class="crear-cuenta"><strong>Crer cuenta nueva</strong></button>
+                    <p>¿Ya tiene una cuenta?<div class="a">Iniciar</div></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
